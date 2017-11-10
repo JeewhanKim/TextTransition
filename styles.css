@@ -1,0 +1,119 @@
+/* Temp for mobile */
+
+.spring18hp-nav {
+  /* display: none;
+    @include mq($mq-desktop-small-min){
+    display: block;
+  } */
+}
+.spring18hp-caret {
+  position: fixed;
+  bottom: 3.4%;
+  left: calc(50% - 8px);
+  transform: translateX(-50%);
+
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  z-index: 99;
+
+  border: solid white;
+  border-width: 0 2.5px 2.5px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+  -webkit-transition: .5s all linear;
+  -moz-transition: .5s all linear;
+  -o-transition: .5s all linear;
+  -ms-transition: .5s all linear;
+  transition: .5s all linear;
+}
+body {
+  margin: 0;
+}
+.textTransitionDemo {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 0;
+  font-family: 'Francois One', sans-serif;
+}
+.textTransitionDemo figure {
+  margin: 0;
+}
+.textTransitionDemo .pictures {
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+}
+.textTransitionDemo .pictures figcaption {
+  opacity: 0;
+}
+.textTransitionDemo .pictures figcaption.loaded {
+  opacity: 1;
+}
+.textTransitionDemo figcaption {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+.textTransitionDemo figcaption .headline {
+  font-size: 50px;
+  color: white;
+}
+.textTransitionDemo figcaption .link {
+  font-size: 16px;
+  color: white;
+}
+.textTransitionDemo figcaption.static {
+  position: absolute!important;
+}
+
+.nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 22px;
+  text-align: right;
+  z-index: 50;
+}
+.nav ul {
+  list-style: none;
+}
+.nav  li {
+    padding-top: 3px;
+    padding-left: 6.5px;
+    padding-right: 6.5px;
+    padding-bottom: 6px;
+    color: white;
+    cursor: pointer;
+}
+.nav li:after {
+      content: '';
+      border: 0.75px solid rgb(255, 255, 255);
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      height: 8px;
+      width: 4px;
+      display: inline-block;
+      padding: 0 0 0 5px;
+      position: relative;
+      top: 2px;
+      -webkit-transition: 1.5s all linear;
+      -moz-transition: 1.5s all linear;
+      -o-transition: 1.5s all linear;
+      -ms-transition: 1.5s all linear;
+      transition: 1.5s all linear;
+}
+.nav li.active:after {
+    background: rgb(255, 255, 255);
+}
+
+
