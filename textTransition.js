@@ -140,7 +140,6 @@
     demoSection = $('.textTransitionDemo')
     initialStyles()
     initialState = false
-
     /* sticky nav click events */
     navButtons.click((e) => {
       if(animate) return

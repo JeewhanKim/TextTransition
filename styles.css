@@ -64,7 +64,7 @@ body {
   text-align: center;
 }
 .textTransitionDemo figcaption .headline {
-  font-size: 50px;
+  font-size: 90px;
   color: white;
 }
 .textTransitionDemo figcaption .link {
@@ -87,33 +87,33 @@ body {
   list-style: none;
 }
 .nav  li {
-    padding-top: 3px;
-    padding-left: 6.5px;
-    padding-right: 6.5px;
-    padding-bottom: 6px;
-    color: white;
-    cursor: pointer;
+  padding-top: 3px;
+  padding-left: 6.5px;
+  padding-right: 6.5px;
+  padding-bottom: 6px;
+  color: white;
+  cursor: pointer;
 }
 .nav li:after {
-      content: '';
-      border: 0.75px solid rgb(255, 255, 255);
-      border-radius: 50px;
-      -webkit-border-radius: 50px;
-      -moz-border-radius: 50px;
-      height: 8px;
-      width: 4px;
-      display: inline-block;
-      padding: 0 0 0 5px;
-      position: relative;
-      top: 2px;
-      -webkit-transition: 1.5s all linear;
-      -moz-transition: 1.5s all linear;
-      -o-transition: 1.5s all linear;
-      -ms-transition: 1.5s all linear;
-      transition: 1.5s all linear;
+  content: '';
+  border: 0.75px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  height: 8px;
+  width: 2px;
+  display: inline-block;
+  padding: 0 0 0 5px;
+  position: relative;
+  top: 2px;
+  -webkit-transition: 1.5s all linear;
+  -moz-transition: 1.5s all linear;
+  -o-transition: 1.5s all linear;
+  -ms-transition: 1.5s all linear;
+  transition: 1.5s all linear;
 }
 .nav li.active:after {
-    background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 
 
