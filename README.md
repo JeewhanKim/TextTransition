@@ -6,6 +6,8 @@
 
 ### Usage
 
+Example: https://jeewhankim.github.io/TextTransition/
+
 ```html
 <script type="text/javascript" src="textTransition.js"></script>
 <script>$('.textTransitionDemo').textTransition();</script>
